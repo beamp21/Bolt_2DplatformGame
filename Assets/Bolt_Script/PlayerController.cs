@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
 {
     public float Speed = 5f;
     public float Jump = 12f;
+    public bool HasKey;
     private float _baseSpeed;
     private float _mouvementSpeed;
     private GameObject _player;
@@ -20,6 +21,7 @@ public class PlayerController : MonoBehaviour
         _player = GameObject.Find("Player");
         _baseSpeed = 0;
         _mouvementSpeed = 0;
+        HasKey = false;
         _playerRigidBody = _player.GetComponent<Rigidbody2D>();
         _flipPlayer = new Vector3(1,1,1);
         _playerRigidBody.bodyType = RigidbodyType2D.Dynamic;

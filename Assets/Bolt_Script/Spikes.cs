@@ -20,7 +20,6 @@ public class Spikes : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            Debug.Log("MEUR");
             Scene scene = SceneManager.GetActiveScene();
             SceneManager.LoadScene(scene.name);
         }
