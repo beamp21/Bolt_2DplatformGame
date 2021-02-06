@@ -632,25 +632,6 @@ Transform:
   m_Father: {fileID: 1980876438}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1020324135 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1340254090866780, guid: d59fc136b0b51ab41b3a7dfbf202fdc5,
-    type: 3}
-  m_PrefabInstance: {fileID: 2121441374}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1020324141
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1020324135}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45bd8d839edc47448a6b3e467e55ae98, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _scene: 
 --- !u!1 &1089278324
 GameObject:
   m_ObjectHideFlags: 0
@@ -1041,6 +1022,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 868218693, guid: 9fab65f3a396eaf4fb2c796172ea03ca, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 868218700, guid: 9fab65f3a396eaf4fb2c796172ea03ca, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2108578190, guid: 9fab65f3a396eaf4fb2c796172ea03ca, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1784235645598328, guid: 9fab65f3a396eaf4fb2c796172ea03ca, type: 3}
       propertyPath: m_Name
       value: Player
@@ -1224,21 +1217,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1020324139, guid: d59fc136b0b51ab41b3a7dfbf202fdc5, type: 3}
       propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1020324139, guid: d59fc136b0b51ab41b3a7dfbf202fdc5, type: 3}
-      propertyPath: _data._json
-      value: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 1020324139, guid: d59fc136b0b51ab41b3a7dfbf202fdc5, type: 3}
-      propertyPath: _data._objectReferences.Array.size
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1020324139, guid: d59fc136b0b51ab41b3a7dfbf202fdc5, type: 3}
-      propertyPath: _data._objectReferences.Array.data[0]
-      value: 
-      objectReference: {fileID: 11400000, guid: 0f257e30d2399e44695a72228569abd4,
-        type: 2}
+    - target: {fileID: 1020324140, guid: d59fc136b0b51ab41b3a7dfbf202fdc5, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"Scene","value":{"$content":"Level2","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020324141, guid: d59fc136b0b51ab41b3a7dfbf202fdc5, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1340254090866780, guid: d59fc136b0b51ab41b3a7dfbf202fdc5, type: 3}
       propertyPath: m_Name
       value: Objective

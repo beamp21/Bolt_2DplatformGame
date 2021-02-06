@@ -6,6 +6,7 @@ public class Key : MonoBehaviour
 {
     [SerializeField]
     private PlayerController _player;
+    private GameObject _pPlayer;
     [SerializeField]
     private GameObject _key;
     // Start is called before the first frame update
@@ -21,7 +22,7 @@ public class Key : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
     /// <summary>
     /// when player collide with the key
@@ -34,6 +35,10 @@ public class Key : MonoBehaviour
         if(collision.gameObject.tag == "Player")
         {
             _player.HasKey = true;
+            if (GameObject.Find("Player").GetComponent<PlayerController>().HasKey)
+            {
+                Debug.Log("WEEPEE on a la clé " + GameObject.Find("Player").GetComponent<PlayerController>().HasKey);
+            }
             Destroy(_key);
         }
     }

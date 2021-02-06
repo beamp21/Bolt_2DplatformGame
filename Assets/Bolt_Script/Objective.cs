@@ -9,10 +9,28 @@ public class Objective : MonoBehaviour
     private string _scene;
     private string _unlocked;
     private string _level;
+
+    private Scene _currentScene;
     // Start is called before the first frame update
     void Start()
     {
-        _scene = "Level2";
+        _currentScene = SceneManager.GetActiveScene();
+        if(_currentScene.name == "Level1")
+        {
+            _scene = "Level2";
+        }
+        else if(_currentScene.name == "Level2")
+        {
+            _scene = "Level3";
+        }
+        else if (_currentScene.name == "Level3")
+        {
+            _scene = "Level4";
+        }
+        else
+        {
+            Debug.Log("Gagné");
+        }
         _unlocked = "_Unlocked";
     }
 
