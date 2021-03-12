@@ -8,6 +8,8 @@ TagManager:
   - Projectile
   - Key
   - Enemy
+  - Spikes
+  - Pet
   layers:
   - Default
   - TransparentFX
@@ -23,9 +25,9 @@ TagManager:
   - Enemies
   - PlayerInvincible
   - Projectiles
-  - 
-  - 
-  - 
+  - Spikes
+  - Objective
+  - Pet
   - 
   - 
   - 

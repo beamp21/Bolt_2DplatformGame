@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 8796522848350862493}
   - component: {fileID: 5245548428499103217}
   - component: {fileID: 760811890919873594}
-  - component: {fileID: 5092797928124662513}
   m_Layer: 0
   m_Name: HudLoader
   m_TagString: Untagged
@@ -55,7 +54,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3632446627734581649}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
   m_Name: 
@@ -64,15 +63,3 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: eef0608b5288d334b9e617103172e4a4, type: 2}
---- !u!114 &5092797928124662513
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3632446627734581649}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11625bca7b05b7d42ae7def2aee9affd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

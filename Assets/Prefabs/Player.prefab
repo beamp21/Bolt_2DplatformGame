@@ -107,7 +107,6 @@ GameObject:
   - component: {fileID: 50304428359922864}
   - component: {fileID: 868218693}
   - component: {fileID: 868218694}
-  - component: {fileID: 868218700}
   - component: {fileID: 2108578190}
   m_Layer: 8
   m_Name: Player
@@ -262,7 +261,7 @@ MonoBehaviour:
   _data:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
-    - {fileID: 11400000, guid: 6b95edc3cf72aa2449c8d9705ea37f8e, type: 2}
+    - {fileID: 11400000, guid: 436cd71faaed32f4bb6dea4ee2e04215, type: 2}
 --- !u!114 &868218694
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -278,24 +277,6 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"Jump","value":{"$content":12.0,"$type":"System.Single"},"$version":"A"},{"name":"HasKey","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Health","value":{"$content":3,"$type":"System.Int32"},"$version":"A"},{"name":"HasProjectiles","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
---- !u!114 &868218700
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1784235645598328}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d36d784308e17a348a71c03e7617e0de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Speed: 5
-  Jump: 12
-  Health: 3
-  _currentHealth: 0
-  HasKey: 0
-  previousState: 0
 --- !u!114 &2108578190
 MonoBehaviour:
   m_ObjectHideFlags: 0
