@@ -10,6 +10,7 @@ TagManager:
   - Enemy
   - Spikes
   - Pet
+  - shield
   layers:
   - Default
   - TransparentFX
@@ -28,7 +29,7 @@ TagManager:
   - Spikes
   - Objective
   - Pet
-  - 
+  - Shield
   - 
   - 
   - 
