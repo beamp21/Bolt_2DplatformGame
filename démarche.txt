@@ -2,7 +2,7 @@ Démarche examen:
 
 - Créer branche examen sur Git
 - Ajouter GameObject apple sur une plateforme
-- Donner un rigidbody2D au GameObject apple
+- Donner un circle collider 2D au GameObject apple
 - Ajouter GameObject bee
 - Donner un rigidbody2D au GameObject bee
 - Détecter collision avec GameObject apple et Player
