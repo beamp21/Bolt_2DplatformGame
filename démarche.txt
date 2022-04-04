@@ -1,0 +1,14 @@
+Démarche examen: 
+
+- Créer branche examen sur Git
+- Ajouter GameObject apple sur une plateforme
+- Donner un rigidbody2D au GameObject apple
+- Ajouter GameObject bee
+- Donner un rigidbody2D au GameObject bee
+- Détecter collision avec GameObject apple et Player
+- Détruire GameObject apple à la collision
+- Faire apparaître le GameObject bee après la collision avec apple
+- Donner une position de départ au GameObject bee: y = 4, x = aléatoire (-10;10)
+- Faire suivre le Player par le GameObject bee
+- Après 10 secondes, le GameObject bee est détruit
+- Si le GameObject bee touche Player avant ses 10 secondes de vie, Player meurt (restart niveau)
